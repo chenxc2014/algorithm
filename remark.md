@@ -19,7 +19,8 @@ pip install pandas -i http://pypi.douban.com/simple/
 - 修改默认pypi源  
   - 在liunx环境下，在当前的虚拟环境下面新建pip.conf文件  
   ``~/.pip/pip.conf``  
-  - 在windows环境下，在当前的虚拟环境下面的pip文件夹新建pip.ini，并配置系统环境变量  
+  - 在windows环境下，在当前的虚拟环境下面的pip文件夹新建pip.ini，并配置系统环境变量 
+  C:\Users\chenxc\AppData\Local\pip  
   ``%HOMEPATH%\pip\pip.ini``  
   - 在上面2个文件夹里面写入这些代码  
   ````
